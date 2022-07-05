@@ -136,10 +136,10 @@ def get_jobs(keyword, num_jobs, verbose, path, slp_time):
                          "Job Description":job_description,
                          "Salary Estimate":salary_estimate,
                          "Rating":rating,
-                         "Size":size,
+                         "Company Size":size,
                          "Type of ownership":type_of_ownership,
                          "Sector":sector,
-                         "Founded":founded,
+                         "Company Founded Date":founded,
                          "Industry":industry,
                          "Revenue":revenue })                             
              
