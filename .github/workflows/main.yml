@@ -21,7 +21,7 @@ jobs:
       # - name: Install software
       #   run: sudo apt install -y chromium-browser
       - name: Install all necessary packages
-        run: pip install requirements.txt  
+        run: pip install -r requirements.txt 
       - name: Run the scraping script
         run: python glassdoor_scraper.py
       - name: Commit and push if content changed
