@@ -21,7 +21,7 @@ jobs:
       # - name: Install software
       #   run: sudo apt install -y chromium-browser
       - name: Install all necessary packages
-        run: pip install requests pandas cv2  
+        run: pip install requests pandas opencv  
       - name: Run the scraping script
         run: python glassdoor_scraper..py
       - name: Commit and push if content changed
